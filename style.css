@@ -1,6 +1,6 @@
-/*                                      */
-/*  ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA  */
-/*                                      */
+/*                                    */
+/* ESTILIZAÇÃO DO CABEÇALHO DA PÁGINA */
+/*                                    */
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -35,9 +35,9 @@
     list-style: none;
 }
 
-/*                                  */
-/*  ESTILIZAÇÃO DO CORPO DA PÁGINA  */
-/*                                  */
+/*                                */
+/* ESTILIZAÇÃO DO CORPO DA PÁGINA */
+/*                                */
 
 .mainPA{
     margin: auto;
@@ -66,9 +66,9 @@
     color: #422d16;
 }
 
-/*                                   */
-/*  ESTILIZAÇÃO DO RODAPÉ DA PÁGINA  */
-/*                                   */
+/*                                 */
+/* ESTILIZAÇÃO DO RODAPÉ DA PÁGINA */
+/*                                 */
 
 .noticiasPA{
     background-color: beige;
@@ -92,3 +92,78 @@
     text-align: center;
     font-size: 25px;
 }
+
+/*                               */
+/* ESTILIZAÇÃO DA PÁGINA ANIMAIS */
+/*                               */
+
+.body-animais{
+    background-color: beige;
+    background-image:linear-gradient(beige,rgb(255, 255, 162));
+    text-align: center;
+}
+#tituloAnimais{
+    color: #422d16;
+    padding: 0%;
+    font-size: 50px;
+    margin: 0em 0em 1em 0em;
+}
+.judith, .will, .roosevelt{
+    border: 5px solid #422d16;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 108);
+    margin: 5em;
+    padding: 2em;
+    text-align: center;
+}
+.judith b, .will b, .roosevelt b{
+    font-size: 40px;
+    color: #422d16;
+}
+.judith img, .will img, .roosevelt img{
+    border: 5px solid #422d16;
+    border-radius: 15px;
+    margin: 1em 0em 1em 0em;
+}
+.judith dl, .will dl, .roosevelt dl{
+    font-size: 30px;
+    margin: 1em 0em 1em 0em;
+}
+#animaisAjude{
+    color: #422d16;
+    font-size: 40px;
+    margin: 0em 0em 1em 0em;
+}
+#animaisAjude-descricao{
+    font-size: 30px;
+    margin: 0em 0em 2em 0em;
+}
+#animaisAjude-descricao a{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+#animaisAjude-descricao a:visited{
+    color: rgb(255, 123, 0);
+}
+#animaisAjude-descricao a:hover{
+    color: #a35400;
+}
+.navegacao a{
+    list-style: none;
+    padding: 0%;
+    margin: 0em 0em 2em 0em;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.navegacao a:visited{
+    color: rgb(255, 123, 0);
+}
+.navegacao a:hover{
+    color: #a35400;
+}
+
+/*                              */
+/* ESTILIZAÇÃO DA PÁGINA AJUDAR */
+/*                              */
+
