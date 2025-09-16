@@ -5,6 +5,7 @@
     <head>
         <title>Como Ajudar</title>
         <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head> 
 </div>
 
@@ -12,26 +13,24 @@
 
     <div>
         <header>
-            <h1>Como você pode ajudar?</h1>
+            <h1 id="tituloAjudar">Como você pode ajudar?</h1>
         </header>
     </div>
 
-<div>    
+<div class="navegacaoAjudar">    
     <nav> <!--NAVEGAÇÃO DO SITE-->
-        <p>Existem diversas formas para você ajudar a nossa ONG. sabia? Confira abaixo:</p>
-        <ul>
+        <p id="subtituloAjudar">Existem diversas formas para você ajudar a nossa ONG. sabia? Confira abaixo:</p><br>
+        <ul class="ulAjudar">
             <li><a href="#voluntariado">Seja um voluntariado</a></li>
             <li><a href="#doacao">Realize uma doação</a></li>
         </ul>
     </nav>
 </div>
 
-<hr>
-
 <main>
-    <section>
-        <h2 id="#voluntariado">Passos para ser um voluntariado:</h2>
-            <ol>
+    <section class="secaoAjudar1">
+        <h2>Passos para ser um voluntariado:</h2>
+            <ol class="olAjudar">
                 <li><b>Conheça nossa ONG.</b></li>
                 &nbsp; &nbsp; Informe-se sobre nossa missão, valores e o impacto que causamos.</b>
                 <li><b>Preencha o Formulário de Interesse</b></li>
@@ -45,45 +44,42 @@
             </ol>
     </section> 
 
-<hr> 
-
-<section> <!-- PARTE DE DOAÇÃO DO SITE -->
-    <h3 id="#doacao">Realize uma doação:</h3>
-        <table> 
-            <thead>
-                <tr>
-                    <th>Ração (KG)</th>
-                    <th>Valor (R$)</th>
-                </tr>
-            </thead>
-                <tbody>
+<div id="doacao">
+    <section class="secaoAjudar2"> <!-- PARTE DE DOAÇÃO DO SITE -->
+        <h3 id="#doacao">Realize uma doação:</h3>
+            <table> 
+                <thead>
                     <tr>
-                        <td>200</td>
-                        <td>120</td>
+                        <th>Ração (KG)</th>
+                        <th>Valor (R$)</th>
                     </tr>
-                </tbody>
-        </table>
-</section>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>200</td>
+                            <td>120</td>
+                        </tr>
+                    </tbody>
+            </table>
+    </section>
+</div>
 
-<hr>
+<div id="voluntariado"> <!-- PARTE DE VOLUNTARIADO DO SITE -->
+    <h4 id="formularioAjudar">Se interessou? Entre em contato conosco abaixo:</h4>
+        <form action="formcontato.php" method="post">
+            <label for="txtNome">Nome:</label>
+            <input type="text" id="txtNome" name="txtNome"><br>
 
-<!-- FORMULÁRIO DO SITE -->
-<h4>Se interessou? Entre em contato conosco abaixo:</h4>
-    <form action="formcontato.php" method="post">
-        <label for="txtNome">Nome:</label>
-        <input type="text" id="txtNome" name="txtNome"><br>
+            <label for="txtEmail">Email:</label>
+            <input type="text" id="txtEmail" name="txtEmail"><br>
 
-        <label for="txtEmail">Email:</label>
-        <input type="text" id="txtEmail" name="txtEmail"><br>
+            <label for="txtMsg">Mensagem:</label><br>
+            <textarea id="txtMsg" name="txtMsg" rows="5" cols="40"></textarea><br>
+            <input type="submit" value="Enviar Formulário">
+        </form> 
 
-        <label for="txtMsg">Mensagem:</label><br>
-        <textarea id="txtMsg" name="txtMsg" rows="5" cols="40"></textarea><br>
-        <input type="submit" value="Enviar Formulário">
-    </form> 
-
-<hr>
 <!-- FOOTER DO SITE -->
-    <footer>
+    <footer class="footerAjudar">
         <p>&copy; Patas Amigas 2025, Todos os Direitos Reservados</p>
         <li><a href="index.html">Voltar à Página Inicial</a></li>
     </footer>

@@ -167,3 +167,108 @@
 /* ESTILIZAÇÃO DA PÁGINA AJUDAR */
 /*                              */
 
+#tituloAjudar{
+    color: #422d16;
+    padding: 0%;
+    font-size: 50px;
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+}
+
+.navegacaoAjudar{
+    text-align: center;
+    margin: auto;   
+    font-size: 30px;       
+    background-color: rgb(255, 255, 108);
+}
+.navegacaoAjudar a:hover{
+    color: #a35400;
+}
+.navegacaoAjudar a{
+    padding: 0%;
+    margin: 0em 0em 1em 0em;
+    color: #422d16;
+}
+.ulAjudar a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    margin: auto;
+}
+#subtituloAjudar{
+    font-size: 30px;
+    margin: 0em 0em 0em 0em;
+}
+.secaoAjudar1, .secaoAjudar2{   
+    margin: auto;          
+    text-align: center;
+    font-size: 30px;
+}
+.olAjudar li{
+    margin: 1em 0em 1em 0em;
+    text-align: left;
+    text-align: center;
+    text-decoration: none;
+}
+.olAjudar a{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+.olAjudar a:visited{
+    color: rgb(255, 123, 0);
+}
+.olAjudar a:hover{
+    color: #a35400;
+}
+.secaoAjudar2 table{
+    margin: auto;
+    border: 5px solid #422d16;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 108);
+    padding: 2em;
+}
+.secaoAjudar2 th, .secaoAjudar2 td{
+    border: 2px solid #422d16;
+    border-radius: 15px;
+    padding: 1em;
+}
+.secaoAjudar2 th{
+    font-size: 40px;
+    color: #422d16;
+}
+.secaoAjudar2{
+    margin: 2em;
+    padding: 0em;
+    text-align: center;
+}
+#formularioAjudar{
+    margin: 2em 0em 1em 0em;
+    font-size: 40px;
+    color: #422d16;
+    text-align: center;
+}
+form{
+    font-size: 30px;
+    text-align: left;
+    margin: auto;
+    padding: 2em;
+    border: 5px solid #422d16;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 108);
+    max-width: 600px;
+}
+.footerAjudar{
+    text-align: center;
+    font-size: 25px;
+    background-color: beige;
+    background-image:linear-gradient(beige,rgb(255, 255, 162));
+    padding: 1em 0em 1em 0em;
+    margin: 1em 0em 0em 0em;
+}
+.footerAjudar a{
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+}
+.footerAjudar a:hover{
+    color: #a35400;
+}
